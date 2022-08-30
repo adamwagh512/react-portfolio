@@ -1,0 +1,41 @@
+.pic {
+    height: 300px;
+    width: 300px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    float: left;
+    text-align: center;
+    font-family: arial;
+    background-color: white;
+  }
+
+  .portfolio {
+    background-color: #4AA2D9;
+  }
+
+  .portfolio h1 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+  }
+
+  .portfolio p {
+    font-family: 'Waiting for the Sunrise', cursive;
+  }
+
+  .row {
+    margin: 0 -5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
