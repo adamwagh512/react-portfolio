@@ -1,0 +1,51 @@
+.resume {
+    background-color: #04BFBF;
+    color: #F2E4D8;
+    
+}
+
+.resume h1 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+}
+
+.resume h2 {
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 45px;
+}
+
+.resume h4 {
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 30px;
+}
+
+.resume h5 {
+    font-family: 'Biryani', sans-serif;
+    font-size: 20px;
+}
+
+.resume p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Amatic SC', cursive;;
+    font-size: 22px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    background-color: #4CAF50;
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
+}
