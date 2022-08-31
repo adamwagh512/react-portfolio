@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.b0576457.css",
+    "main.js": "/react-portfolio/static/js/main.09b2a6e3.js",
+    "static/media/firstPortfolio.jpg": "/react-portfolio/static/media/firstPortfolio.a1a4a98c325f0583926c.jpg",
+    "static/media/tome.jpg": "/react-portfolio/static/media/tome.6ea79fd7f86cddf448e7.jpg",
+    "static/media/dog.jpg": "/react-portfolio/static/media/dog.354f01a7b366a71b2f07.jpg",
+    "static/media/translator.jpg": "/react-portfolio/static/media/translator.a18b4bd7fe72cba250ea.jpg",
+    "static/media/scheduler.jpg": "/react-portfolio/static/media/scheduler.68f5747df3c5be2bf1b9.jpg",
+    "static/media/twitter.png": "/react-portfolio/static/media/twitter.13d23ae60d416ef77f29.png",
+    "static/media/Adam.jpg": "/react-portfolio/static/media/Adam.84546ea6598cc2ffa335.jpg",
+    "static/media/new-braunfels.jpg": "/react-portfolio/static/media/new-braunfels.e2c36a1edba0a02fdd34.jpg",
+    "static/media/password-generator.jpg": "/react-portfolio/static/media/password-generator.a034715fccf9dc855d41.jpg",
+    "static/media/github.png": "/react-portfolio/static/media/github.a72eca0856f2cb377586.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.b0576457.css.map": "/react-portfolio/static/css/main.b0576457.css.map",
+    "main.09b2a6e3.js.map": "/react-portfolio/static/js/main.09b2a6e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0576457.css",
+    "static/js/main.09b2a6e3.js"
+  ]
+}
