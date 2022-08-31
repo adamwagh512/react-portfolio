@@ -8,8 +8,8 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 ## Description
-
-This is a portfolio page for Adam Wagh that was built using React. The portfolio is meant to showcase coding projects that Adam has done, and give people the opportunity to connect with him using a contact form. This project was built to satisfy the requirements of unit 20 of the University of Texas at Austin coding bootcamp. 
+![altText](./src/images/aboutme.jpg)
+This is a portfolio page for Adam Wagh that was built using React. The portfolio is meant to showcase coding projects that Adam has done, and give people the opportunity to connect with him using a contact form. I made the decision to match the style of my first profile attempt so I could see how much I have improved. This project was built to satisfy the requirements of unit 20 of the University of Texas at Austin coding bootcamp. 
 ## How to Use
 1) Visit the portfolio website [here]()
 2) Use the navigation bar at the top of the page to move around my website.

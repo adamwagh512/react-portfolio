@@ -1,22 +1,37 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import '../../styles/contactstyle.css'
 
-export default function Contact() {
+export default function ContactUs() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_odslkod', 'template_o03wvrb', form.current, '0ToYHyb-8PgQOfeHi')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+  
+
   return (
-    <div>
-      <h1>Contact Me</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div className='contactform'>
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input className='text' type="text" name="user_name" />
+      <br></br>
+      <label>Email</label>
+      <input className='text' type="email" name="user_email" />
+      <br></br>
+      <label>Message</label>
+      <textarea className='text' name="message" />
+      <br></br>
+      <input className='button' type="submit" value="Send" />
+    </form>
     </div>
   );
-}
+};
